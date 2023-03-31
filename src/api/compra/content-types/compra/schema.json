@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compras",
+  "info": {
+    "singularName": "compra",
+    "pluralName": "compras",
+    "displayName": "compras"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comprador": {
+      "type": "text"
+    },
+    "pedido": {
+      "type": "json"
+    },
+    "IdUser": {
+      "type": "string"
+    },
+    "total": {
+      "type": "decimal"
+    }
+  }
+}
